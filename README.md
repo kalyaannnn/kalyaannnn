@@ -5,17 +5,23 @@ My research interest is **statistical machine learning and the theory of machine
 
 ## Selected Projects
 
+### AgentRL *(in progress)*
+Single-GPU framework for post-training language models using verifier-based reinforcement learning instead of learned reward models. Designed to support end-to-end training loops (rollouts, grouped sampling, reward computation, policy updates) under tight memory constraints. Current focus on stabilizing learning with curriculum design and shaped rewards, and building a modular environment/verifier interface.  
+- Repo: https://github.com/kalyaannnn/agentRL
+
 ### DeepLense
-Physics‑aware foundation model for gravitational lensing. Developed a self‑supervised masked autoencoder with residual encoders and multi‑head outputs for reconstruction, classification, and super‑resolution. Reduced reconstruction loss from 0.0629 to 0.0574 and achieved classifier AUC of 0.943 and PSNR of 38.28 dB.  
-- Repo: [DeepLense2025EvaluationTasks](https://github.com/kalyaannnn/DeepLense2025EvaluationTasks)
+Physics-informed foundation model for strong gravitational lensing built using self-supervised representation learning. Uses a JEPA-style objective with a ViT backbone and integrates differentiable lensing signals (e.g., convergence, deflection) as auxiliary structure. Demonstrates strong performance across classification and super-resolution tasks with improved physical consistency.  
+- Repo: https://github.com/kalyaannnn/deepLense2026
 
 ### PhoenixDB
-High‑performance vector database in Rust with SIMD‑optimized distance kernels and HNSW‑based indexing. Achieved 99.7 % recall@10 at 1K scale with a 1.5 KB/vector memory footprint.  
-- Repo: [rustProject](https://github.com/kalyaannnn/rustProject)
+High-performance vector database in Rust with SIMD-optimized distance kernels and HNSW-based indexing. Achieved 99.7% recall@10 at 1K scale with a 1.5 KB/vector memory footprint.  
+- Repo: https://github.com/kalyaannnn/rustProject
 
 ## Publications
 
-- **Evidence Slopes and Effective Dimension in Singular Linear Models** — Preprint, 2026. Investigates Bayesian model selection in singular models through evidence slopes and effective dimension. [arXiv:2601.01238](https://arxiv.org/abs/2601.01238)
+- **Evidence Slopes and Effective Dimension in Singular Linear Models** — :contentReference[oaicite:0]{index=0} Workshop on Scientific Methods for Understanding Deep Learning (2nd Edition), 2026.  
+  Studies Bayesian model selection in singular regimes via evidence slopes, linking them to effective dimension and generalization behavior.  
+  https://arxiv.org/abs/2601.01238
 
 ## Tools
 Python · PyTorch · JAX · Rust · NumPy · LaTeX

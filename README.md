@@ -19,7 +19,7 @@ High-performance vector database in Rust with SIMD-optimized distance kernels an
 
 ## Publications
 
-- **Evidence Slopes and Effective Dimension in Singular Linear Models** — :contentReference[oaicite:0]{index=0} Workshop on Scientific Methods for Understanding Deep Learning (2nd Edition), 2026.  
+- **Evidence Slopes and Effective Dimension in Singular Linear Models** —  Workshop on Scientific Methods for Understanding Deep Learning (2nd Edition), 2026.  
   Studies Bayesian model selection in singular regimes via evidence slopes, linking them to effective dimension and generalization behavior.  
   https://arxiv.org/abs/2601.01238
 

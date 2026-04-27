@@ -5,7 +5,7 @@ My research interest is **statistical machine learning and the theory of machine
 
 ## Selected Projects
 
-### AgentRL *(in progress)*
+### AgentRL 
 Single-GPU framework for post-training language models using verifier-based reinforcement learning instead of learned reward models. Designed to support end-to-end training loops (rollouts, grouped sampling, reward computation, policy updates) under tight memory constraints. Current focus on stabilizing learning with curriculum design and shaped rewards, and building a modular environment/verifier interface.  
 - Repo: https://github.com/kalyaannnn/agentRL
 

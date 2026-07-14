@@ -1,7 +1,7 @@
 # Kalyaan Rao
 
 I am a Master's student in Data Science at New York University, Center for Data Science.  
-My research interest is **statistical machine learning and the theory of machine learning**.
+My research interest is **machine learning systems and the theory of machine learning**.
 
 ## Selected Projects
 
